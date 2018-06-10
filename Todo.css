@@ -37,6 +37,10 @@ body{
 input:focus{
 	outline: none;
 }
+span:hover{
+	background-color: red;
+	color: white;
+}
 span{
 	float: right;
 	text-align: center;
