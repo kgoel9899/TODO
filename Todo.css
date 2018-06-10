@@ -19,20 +19,16 @@ ul{
 #input{
 	padding: 10px 20px;
 	margin: 0;
-	width: 360px;
+	width: 300px;
 	border: 1px #f7f7f7;
 	box-sizing: border-box;
 	height: 40px;
 	font-size: 15px;
 	background-color: #f7f7f7;
 	display: inline-block;
-
 }
 body{
-	background: #314755;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: linear-gradient(to right, #26a0da, #314755);
 }
 input:focus{
 	outline: none;
@@ -55,11 +51,14 @@ li{
 	height: 40px;
 	line-height: 40px;
 	padding: 0.4px 0px;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 .selected{
 	text-decoration: line-through;
 }
 .add{
 	text-decoration: none;
+}
+.s:checked + li{
+  text-decoration:line-through
 }

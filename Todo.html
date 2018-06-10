@@ -6,18 +6,35 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
 <div class="container">
 	<h1>Todo</h1>
-	<input type="text" placeholder="Add new Todo" id="input">
+	<input type="text" placeholder="Add a new Todo" id="input">
 	<ul id="ul">
-		<li class="selected"><span><i class="fa fa-trash"></i></span> Do 1</li>
-		<li><span><i class="fa fa-trash"></i></span> Do 2</li>
-		<li><span><i class="fa fa-trash"></i></span> Do 3</li>
+		<li><input type="checkbox" class="s"><span><i class="fa fa-trash"></i></span> Do 1 </li>
+		<li><input type="checkbox"><span><i class="fa fa-trash"></i></span> Do 2 </li>
+		<li><input type="checkbox"><span><i class="fa fa-trash"></i></span> Do 3 </li>
 	</ul>
 </div>
-
-
 <script type="text/javascript" src="Todo.js"></script>
 </body>
 </html>
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="Todo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+	<h1>Todo</h1>
+	<input type="text" placeholder="Add a new Todo" id="input">
+	<ul id="ul">
+		<li onclick="striked()"><span><i onclick="dele()" class="fa fa-trash"></i></span> Do 1</li>
+		<li onclick="striked()"><span><i onclick="dele()" class="fa fa-trash"></i></span> Do 2</li>
+		<li onclick="striked()"><span><i onclick="dele()" class="fa fa-trash"></i></span> Do 3</li>
+	</ul>
+</div>
+<script type="text/javascript" src="Todo.js"></script>
+</body>
+</html> -->
